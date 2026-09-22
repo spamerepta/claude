@@ -1,0 +1,5 @@
+s = input()
+count = s.count("а")
+s = s.replace("а", "")
+print(s)
+print("Удалено символов:", count)
