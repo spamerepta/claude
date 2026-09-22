@@ -1,6 +1,0 @@
-s = input()
-count = s.count("а")
-s = s.replace("а", "о")
-print(s)
-print("Количество замен:", count)
-print("Символов в строке:", len(s))

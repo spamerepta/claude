@@ -9,7 +9,8 @@ def divisible_by_digits(number):
 
 
 n = int(input())
+result = []
 for i in range(1, n + 1):
     if divisible_by_digits(i):
-        print(i, end=" ")
-print()
+        result.append(i)
+print(*result)
